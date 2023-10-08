@@ -1,0 +1,19 @@
+#include <glload/gl_3_3.h>
+#include <GL/freeglut.h>
+#include <GL/glut.h>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glload/gl_load.hpp>
+#include <glutil/Shader.h>
+#include <algorithm>
+#include <iostream>
+#include <glimg/StbLoader.h>
+#include <glimg/TextureGenerator.h>
+#include <glimg/Loaders.h>
+#include <glimg/ImageSet.h>
+#include <string>
+#include <vector>
+#include <map>
+
+void display();
+void init();
+int initShaders();
